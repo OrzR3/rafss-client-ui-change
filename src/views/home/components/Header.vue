@@ -3,7 +3,7 @@
     <div class="header-div">
       <div class="header-left">
         <div class="header-logo">
-          <img src="~@/assets/img/home/header/logo3.png" alt />
+          <img src="~@/assets/img/home/header/logo.png" alt />
         </div>
         <div class="header-title">
           <!-- 档案预约 -->
