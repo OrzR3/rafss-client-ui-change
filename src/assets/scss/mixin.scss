@@ -1,0 +1,20 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin border-shadow{
+  border-radius: 4px;
+  border: 1px solid #ebeef5;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+}
+
+@mixin flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

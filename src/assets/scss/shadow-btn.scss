@@ -1,0 +1,36 @@
+.shadow-btn {
+  // color: #fff;
+  // border: 0;
+  // font-size: 18px;
+  // outline: none;
+  // padding: 0.278em 0.556em;
+  // background: #ace;
+  // border-radius: 0.22em;
+  /* 设置文字阴影 */
+  text-shadow: 0 -0.056em 0 rgba(0,0,0,.3);
+  /* 设置盒子阴影 */
+  box-shadow: 0 0.22em 0 #9cb8d8, 0 0.167em 1.11em rgba(0,0,0,0.3);
+    /* 交互性 */
+  cursor: pointer;
+}
+
+.shadow-btn:active {
+  /* 按钮按下去之后周围的光源应该没那么强烈了，所以可以考虑适当减少阴影 */
+  text-shadow: 0 -0.056em 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 0.556em rgba(0, 0, 0, 0.5) inset;
+  position: relative;
+  top: 0.167em;
+}
+
+  //最终我们可以根据字体大小来调整button的大小，阴影部分也会随着增大减小。
+.btn {
+  margin-left: 30px;
+}
+
+.btn-md {
+  font-size: 30px;
+}
+
+.btn-lg {
+  font-size: 50px;
+}

@@ -1,0 +1,36 @@
+@import "./variable.scss";
+.el-dialog {
+  //margin-top: 10vh!important;
+  .el-dialog__header {
+    border-bottom: 1px solid $blue;
+    padding-top: 10px;
+    // background-color: #409eff;
+    background-color: $blue;
+    text-align: left;
+    .el-dialog__title {
+      line-height: 24px;
+      font-size: 16px;
+      color: #ffffff;
+    }
+   
+  }
+  .el-dialog__headerbtn {
+    position: absolute;
+    top: 14px !important;
+    right: 20px;
+    padding: 0;
+    background: 0 0;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    i {
+      color: #ffffff;
+    }
+    &:hover{
+      i {
+        color: #ffffff;
+      }     
+    }
+  }
+}

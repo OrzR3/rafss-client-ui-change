@@ -1,0 +1,69 @@
+
+@import "./reset.scss";
+@import "./elementui.scss";
+@import "./animation.scss";
+@import './mixin.scss';
+@import './font-face.scss';
+
+*{
+  font-family: 'Microsoft YaHei';
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus{
+  outline: none;
+ }
+
+
+img{
+ width: 100%; 
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hover-magnify {
+  &:hover{
+    transform:scale(1.1);
+    transition: all .2s ease-in-out;
+  }
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.max-btn{
+  width: 100%;
+}
